@@ -1,0 +1,43 @@
+div.div-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+div.div-modal button {
+  border: none;
+  background: #cc3030;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  border-radius: 4px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+div.all-inputs {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div.despesa-receita {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+div.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
